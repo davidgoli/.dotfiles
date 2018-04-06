@@ -1,0 +1,17 @@
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[user]
+	name = davidgoli
+	email = davigoli@gmail.com
+	username = davidgoli
+[core]
+	excludesfile = /Users/David/.gitignore
+	editor = vim -f
+[credential]
+	helper = osxkeychain
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
